@@ -7,7 +7,7 @@ import { roles } from '@/app.roles';
 import { MailerModule } from '@nestjs-modules/mailer';
 import { mailerConfig } from '@/config';
 import { UserModule } from '@user/user.module';
-import { HomeModule } from './modules/home/home.module';
+import { HomeModule } from '@home/home.module';
 
 @Module({
     imports: [

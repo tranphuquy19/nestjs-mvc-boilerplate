@@ -7,4 +7,10 @@ export class HomeController {
     showHomePage() {
         return { title: 'Hello from homepage' };
     }
+
+    @Get('about')
+    @Render('about')
+    showAboutPage() {
+        return { title: 'Hello from aboutpage' };
+    }
 }
