@@ -8,7 +8,7 @@ export interface IUserModel {
     email: string;
     avatarUrl: string;
     password: string;
-    roles: AppRoles[];
+    roles: AppRoles;
     createdAt?: Date;
     updatedAt?: Date;
 }
@@ -20,7 +20,7 @@ export class UserModel implements IUserModel {
     password: string;
     email: string;
     phoneNumber: string;
-    roles: AppRoles[];
+    roles: AppRoles;
     username: string;
     createdAt?: Date;
     updatedAt?: Date;
